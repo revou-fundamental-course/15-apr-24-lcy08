@@ -1,0 +1,58 @@
+body {
+    width : 75%;
+    margin : 10%
+}
+
+.header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+main {
+    background-color: salmon !important;
+    padding: 20px;
+}
+
+textarea {
+    width: 225px;
+    padding: 5px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 10px;
+    resize: none;
+}
+
+.btn-container {
+    padding: 5px;
+    width: 225px;
+    display: flex;
+    gap: 5px;
+}
+
+.convert {
+    width: 70px;
+    height: 25px;
+    background-color:green;
+    color: white;
+    border-radius: 25px;
+}
+
+.reset {
+    width: 70px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border-radius: 25px;
+}
+
+.reverse {
+    width: 70px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+}
+
+.f-c {
+    display: none;
+}
